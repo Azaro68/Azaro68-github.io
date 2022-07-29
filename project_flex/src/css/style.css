@@ -1,0 +1,40 @@
+.header{
+    display: flex;
+    background: #344051;
+    color: white;
+    height: 8%;
+    justify-content: space-around;
+    align-items: center;
+}
+body{
+    font-family: Arial;
+}
+.menu{
+    width: 50%;
+    font-size: 15px;
+    text-transform: uppercase;
+}
+.menu ul{
+    display: flex;
+    justify-content: space-around;
+}
+.logo{
+    font-size: 25px;
+}
+.menu ul li a{
+    color: white;
+}
+.main{
+    height: 92%;
+    background: url("../img/andrey_braun.png")90%/contain no-repeat, url("../img/main_phon.jpg");
+    
+}
+
+.main_text button{
+    background: none;
+}
+.main_text{
+    height: 92%;
+    display: flex;
+    flex-direction: column;
+}
